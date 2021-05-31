@@ -27,3 +27,47 @@ header h1{
 }
 
 /* Bagian CSS Header Akhir */
+/* Bagian Sosmed */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 15cm;
+    padding-top: 20px;
+}
+
+.footer .sci {
+    position: relative;
+    display: flex;
+
+}
+
+.footer .sci li {
+    list-style: none;
+}
+
+.footer .sci li a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .sci li a img {
+    max-width: 35px;
+}
+
+.copyrightText {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.copyrightText a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
