@@ -27,6 +27,13 @@ header h1{
 }
 
 /* Bagian CSS Header Akhir */
+
+/* style galeri */
+.galeri {
+    min-height: 400px;
+}
+/* akhir style galeri */
+
 /* Bagian Sosmed */
 .footer {
     display: flex;
