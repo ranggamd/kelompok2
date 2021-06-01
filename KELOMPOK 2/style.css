@@ -8,12 +8,12 @@
 /* Bagian CSS Header Awal */
 header{
     height: 80px;
-    background-color:white;
+    background-color:grey;
     box-shadow: 0px 2px 25px rgba(0,0,0,0.4);
 }
 
 header img{
-    width: 180px;
+    width: 270px;
     float: left;
     padding: 11px 50px;
 }
@@ -23,15 +23,22 @@ header h1{
     float: right;
     padding: 20px 50px;
     text-align: center;
-    color: #393939;
+    color:white;
 }
 
 /* Bagian CSS Header Akhir */
 
 /* style galeri */
-.galeri {
-    min-height: 400px;
+.galeri-h1{
+    padding-top: 100px;
 }
+.gambar-1{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 90px;
+    
+}
+
 /* akhir style galeri */
 
 /* Bagian Sosmed */
@@ -40,9 +47,10 @@ header h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: grey;
     margin-top: 15cm;
     padding-top: 20px;
+    box-shadow: 0px 2px 25px rgba(0,0,0,0.4);
 }
 
 .footer .sci {
@@ -66,15 +74,15 @@ header h1{
 
 .copyrightText {
     margin-top: 10px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     margin-bottom: 5px;
 }
 
 .copyrightText a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
