@@ -8,7 +8,7 @@
 /* Bagian CSS Header Awal */
 header{
     height: 80px;
-    background-color:grey;
+    /* background-color:grey; */
     box-shadow: 0px 2px 25px rgba(0,0,0,0.4);
 }
 
@@ -30,7 +30,7 @@ header h1{
 
 /* style galeri */
 .galeri-h1{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .gambar-1{
     width: 25%;
@@ -41,16 +41,52 @@ header h1{
 
 /* akhir style galeri */
 
+/* Contact Us */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* End Contact Us */
+
 /* Bagian Sosmed */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: grey;
-    margin-top: 15cm;
+    background-color: #ccc;
+    margin-top: 50px;
     padding-top: 20px;
-    box-shadow: 0px 2px 25px rgba(0,0,0,0.4);
+    /* box-shadow: 0px 2px 25px rgba(0,0,0,0.4); */
 }
 
 .footer .sci {
@@ -73,16 +109,16 @@ header h1{
 }
 
 .copyrightText {
-    margin-top: 10px;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    color: white;
-    text-align: center;
+    margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .copyrightText a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
