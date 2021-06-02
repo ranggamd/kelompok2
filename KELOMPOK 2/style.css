@@ -8,12 +8,12 @@
 /* Bagian CSS Header Awal */
 header{
     height: 80px;
-    background-color:white;
+    /* background-color:grey; */
     box-shadow: 0px 2px 25px rgba(0,0,0,0.4);
 }
 
 header img{
-    width: 180px;
+    width: 270px;
     float: left;
     padding: 11px 50px;
 }
@@ -23,7 +23,102 @@ header h1{
     float: right;
     padding: 20px 50px;
     text-align: center;
-    color: #393939;
+    color:white;
 }
 
 /* Bagian CSS Header Akhir */
+
+/* style galeri */
+.galeri-h1{
+    padding-top: 50px;
+}
+.gambar-1{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 90px;
+    
+}
+
+/* akhir style galeri */
+
+/* Contact Us */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* End Contact Us */
+
+/* Bagian Sosmed */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+    margin-top: 50px;
+    padding-top: 20px;
+    /* box-shadow: 0px 2px 25px rgba(0,0,0,0.4); */
+}
+
+.footer .sci {
+    position: relative;
+    display: flex;
+
+}
+
+.footer .sci li {
+    list-style: none;
+}
+
+.footer .sci li a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .sci li a img {
+    max-width: 35px;
+}
+
+.copyrightText {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.copyrightText a {
+    color: black;
+    text-decoration: none;
+}
+
